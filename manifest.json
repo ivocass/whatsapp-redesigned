@@ -1,0 +1,30 @@
+{
+	"name": "WhatsApp Redesigned",
+	"version": "0.0.0.1",
+	"description": "A fresh new look for WhatsApp web",
+	"browser_action": {
+		"default_icon": {
+			"16": "assets/search-icon-24.png",
+			"32": "assets/search-icon-24.png",
+			"48": "assets/search-icon-24.png",
+			"128": "assets/search-icon-24.png"
+		},
+		"default_popup": "src/popup.html"
+	},
+
+	"icons": {
+		"16": "assets/search-icon-24.png",
+		"32": "assets/search-icon-24.png",
+		"48": "assets/search-icon-24.png",
+		"128": "assets/search-icon-24.png"
+	},
+	"web_accessible_resources": ["assets/search-icon-24.png"],
+	"content_scripts": [
+		{
+			"matches": ["https://web.whatsapp.com/"],
+			"css": ["src/css/styles.css"],
+			"js": ["src/js/content-script.js"]
+		}
+	],
+	"manifest_version": 2
+}

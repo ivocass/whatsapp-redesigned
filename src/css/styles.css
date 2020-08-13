@@ -1,0 +1,166 @@
+:root {
+	--general-background: #292929;
+	--message-background: #171717;
+}
+
+#app {
+	background-color: #0f0f0f;
+}
+
+/* conversation panel */
+#main {
+	background-color: #292929;
+}
+
+#topGreenBanner {
+	height: 172px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background: #009688;
+	background-color: #009688;
+}
+
+/* main panel */
+.h70RQ.two {
+	border-radius: 15px !important;
+}
+
+/* intro background */
+._1kdBg {
+	background-color: var(--general-background) !important;
+}
+
+/* message with image */
+.Yik3W {
+	border-radius: 13px !important;
+}
+
+/* chats list header, conversation header */
+header._1QUKR,
+header._1iFv8 {
+	background-color: var(--general-background) !important;
+}
+
+header._1iFv8 {
+	box-shadow: none !important;
+	border-left: none !important;
+}
+
+/* chat list */
+.-GlrD._2xoTX {
+	background-color: var(--general-background);
+}
+/* chats list item */
+.eJ0yJ {
+	background: none !important;
+}
+
+/* emoji tabs, emoji search, emoji panel */
+._3eShu,
+._2dByE,
+.EX2qq {
+	background-color: var(--general-background) !important;
+}
+
+.eJ0yJ:hover {
+	background: #404040 !important;
+}
+
+/* messages panel */
+._2-aNW {
+	border-left: none !important;
+	border: 1px solid #212121;
+}
+
+/* background behind chats list, right-click context menu */
+._1qDvT._3R02z,
+._2s_eZ {
+	background-color: var(--general-background) !important;
+}
+
+/* input area */
+._3ee1T._1LkpH {
+	background-color: var(--general-background) !important;
+	border-left: none !important;
+}
+
+/* input text field, emoji search input text field, chats list search text field */
+._3uMse,
+.wPvaz,
+._3xpD_ {
+	background-color: #383838 !important;
+	border-left: none !important;
+}
+
+/* right side content in chats list item */
+._2kHpK {
+	border-top: none !important;
+}
+
+/* search bar */
+._2EoyP {
+	display: none;
+}
+
+/* search bar background */
+._3qx7_ {
+	background-color: var(--general-background) !important;
+	border-bottom: none !important;
+}
+
+#custom-search-button {
+	padding: 8px;
+	margin-right: 10px;
+}
+
+#custom-search-icon-img {
+	position: relative;
+	top: 2px;
+}
+
+div[aria-selected="true"] {
+	background: #383838;
+}
+
+/* encryption message, date message */
+._2et95._2n04H._1E1g0,
+._2et95._1E1g0 {
+	background-color: var(--message-background) !important;
+}
+
+/* message */
+._3sKvP.wQZ0F {
+	border-radius: 15px !important;
+	background-color: var(--message-background) !important;
+	border-top-left-radius: 15px !important;
+}
+
+/* read message ticks */
+._3xkAl,
+.zFnXi._2RFeE {
+	color: #06d755 !important;
+}
+
+/* message out tail */
+._2-dPL {
+	display: none !important;
+}
+
+/* message options dropdown */
+._4tndQ._1q11a,
+._2nBjH._1q11a {
+	background: none !important;
+}
+
+/* chat list item */
+html[dir] .eJ0yJ._13opk::after,
+html[dir] .eJ0yJ:hover::after {
+	border-top: none !important;
+}
+
+/* unread notifications circle */
+._31gEB {
+	background-color: #06d755 !important;
+	color: rgb(41, 41, 41);
+}
