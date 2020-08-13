@@ -123,9 +123,10 @@ div[aria-selected="true"] {
 	background: #383838;
 }
 
-/* encryption message, date message */
+/* encryption message, date message, unread message notification */
 ._2et95._2n04H._1E1g0,
-._2et95._1E1g0 {
+._2et95._1E1g0,
+.iBZ7z {
 	background-color: var(--message-background) !important;
 }
 
@@ -134,6 +135,11 @@ div[aria-selected="true"] {
 	border-radius: 15px !important;
 	background-color: var(--message-background) !important;
 	border-top-left-radius: 15px !important;
+}
+
+/* unread message notification line background */
+._9WQEN {
+	background-color: rgb(0 0 0 / 0.3) !important;
 }
 
 /* read message ticks */
