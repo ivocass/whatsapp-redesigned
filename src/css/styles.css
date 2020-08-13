@@ -130,6 +130,17 @@ div[aria-selected="true"] {
 	background-color: var(--message-background) !important;
 }
 
+/* reply background, reply background close */
+._36Lgj,
+._2VC-w {
+	background-color: var(--general-background) !important;
+}
+
+/* reply original message container */
+._2hHuA {
+	background-color: #1d1d1d;
+}
+
 /* message */
 ._3sKvP.wQZ0F {
 	border-radius: 15px !important;
