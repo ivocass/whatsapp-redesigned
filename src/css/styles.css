@@ -31,8 +31,9 @@
 	background-color: var(--general-background) !important;
 }
 
-/* message with image */
-.Yik3W {
+/* messages with images */
+.Yik3W,
+.YQVY1 {
 	border-radius: 13px !important;
 }
 
@@ -123,11 +124,16 @@ div[aria-selected="true"] {
 	background: #383838;
 }
 
-/* encryption message, date message, unread message notification, jump to bottom of chat button */
+/* encryption message, date message, unread message notification, 
+jump to bottom of chat button,
+notification message inside groups,
+time label for stickers */
 ._2et95._2n04H._1E1g0,
 ._2et95._1E1g0,
 .iBZ7z,
-._1YcH- {
+._1YcH-,
+._3ToB1,
+._1nrJA {
 	background-color: var(--message-background) !important;
 }
 
