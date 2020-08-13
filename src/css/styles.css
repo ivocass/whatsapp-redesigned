@@ -123,10 +123,11 @@ div[aria-selected="true"] {
 	background: #383838;
 }
 
-/* encryption message, date message, unread message notification */
+/* encryption message, date message, unread message notification, jump to bottom of chat button */
 ._2et95._2n04H._1E1g0,
 ._2et95._1E1g0,
-.iBZ7z {
+.iBZ7z,
+._1YcH- {
 	background-color: var(--message-background) !important;
 }
 

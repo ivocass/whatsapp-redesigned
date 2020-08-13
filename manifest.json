@@ -4,19 +4,19 @@
 	"description": "A fresh new look for WhatsApp web",
 	"browser_action": {
 		"default_icon": {
-			"16": "assets/search-icon-24.png",
-			"32": "assets/search-icon-24.png",
-			"48": "assets/search-icon-24.png",
-			"128": "assets/search-icon-24.png"
+			"16": "assets/logo16.png",
+			"32": "assets/logo32.png",
+			"48": "assets/logo48.png",
+			"128": "assets/logo128.png"
 		},
 		"default_popup": "src/popup.html"
 	},
 
 	"icons": {
-		"16": "assets/search-icon-24.png",
-		"32": "assets/search-icon-24.png",
-		"48": "assets/search-icon-24.png",
-		"128": "assets/search-icon-24.png"
+		"16": "assets/logo16.png",
+		"32": "assets/logo32.png",
+		"48": "assets/logo48.png",
+		"128": "assets/logo128.png"
 	},
 	"web_accessible_resources": ["assets/search-icon-24.png"],
 	"content_scripts": [
