@@ -21,9 +21,11 @@
 	background-color: #009688;
 }
 
-/* main panel */
-.h70RQ.two {
-	border-radius: 15px !important;
+@media (min-width: 1440px) {
+	/* main panel */
+	.h70RQ.two {
+		border-radius: 15px !important;
+	}
 }
 
 /* intro background */
